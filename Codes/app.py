@@ -64,12 +64,16 @@ st.markdown("""
 @st.cache_resource
 def load_models():
     working_dir = os.path.dirname(os.path.abspath(__file__))
-    models = {
-        'diabetes': pickle.load(open(f'{working_dir}/saved_models/diabetes_model.sav', 'rb')),
-        'heart': pickle.load(open(f'{working_dir}/saved_models/heart_model.sav', 'rb')),
-        'parkinsons': pickle.load(open(f'{working_dir}/saved_models/parkinsons_model.pkl', 'rb'))
-    }
-    return models
+    try:
+        models = {
+            'diabetes': pickle.load(open(os.path.join(working_dir, 'saved_models', 'diabetes_model.sav'), 'rb')),
+            'heart': pickle.load(open(os.path.join(working_dir, 'saved_models', 'heart_model.sav'), 'rb')),
+            'parkinsons': pickle.load(open(os.path.join(working_dir, 'saved_models', 'parkinsons_model.pkl'), 'rb'))
+        }
+        return models
+    except Exception as e:
+        st.error(f"Error loading models: {str(e)}")
+        return None
 
 models = load_models()
 

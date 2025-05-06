@@ -7,6 +7,9 @@ import numpy as np
 import plotly.express as px
 from PIL import Image
 from sklearn.inspection import permutation_importance
+import joblib
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
 
 # Set page configuration
 st.set_page_config(

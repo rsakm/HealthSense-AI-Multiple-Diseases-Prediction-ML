@@ -13,6 +13,7 @@
 # Ignore specific folders
 HealthSense-AI-Multiple-Diseases-Prediction-ML/
 WeApp Interfaces/
+DiabetesPrediction/
 
 # (Optional) Ignore other common temporary files
 *.tmp

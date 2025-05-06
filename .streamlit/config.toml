@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May  6 16:59:46 2025
+
+@author: Rajshree
+"""
+
+[server]
+base = "codes"  # Tells Streamlit Cloud where to find app.py

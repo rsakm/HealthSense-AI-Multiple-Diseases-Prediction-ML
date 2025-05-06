@@ -5,7 +5,7 @@ Created on Tue May  6 16:57:57 2025
 @author: Rajshree
 """
 
-streamlit==1.29.0
+streamlit==1.45.0
 streamlit-option-menu==0.3.6
 numpy==1.24.4
 pandas==2.0.3

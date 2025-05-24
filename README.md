@@ -4,7 +4,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://healthsense-ai.streamlit.app)  
 [![GitHub Stars](https://img.shields.io/github/stars/rsakm/HealthSense-AI-Multiple-Diseases-Prediction-ML?style=social)](https://github.com/rsakm/HealthSense-AI-Multiple-Diseases-Prediction-ML)  
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![HealthSense AI Banner](./readmebanner.jpg)
+![HealthSense AI Banner](readmebanner.png)
 
 
 

@@ -4,9 +4,17 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://healthsense-ai.streamlit.app)  
 [![GitHub Stars](https://img.shields.io/github/stars/rsakm/HealthSense-AI-Multiple-Diseases-Prediction-ML?style=social)](https://github.com/rsakm/HealthSense-AI-Multiple-Diseases-Prediction-ML)  
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-<div align="center">
-  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAADICAIAAACf7RJNAAAGTElEQVR4nO3azU3cQACGYRPlQDHUgKgAceZCFamCKnKhgFSQsnLMYSXL8fzs2P6WDavnUQ5k1/aMDZJfjX338PgyAQCQ8+3aEwAAuDUCCwAgTGABAIQJLACAMIEFABAmsAAAwgQWAECYwAIACBNYAABhAgsAIExgAQCECSwAgDCBBQAQJrAAAMIEFgBAmMACAAgTWAAAYQILACBMYAEAhAksAIAwgQUAECawAADCBBYAQJjAAgAIE1gAAGECCwAgTGABAIQJLACAMIEFABAmsAAAwgQWAECYwAIACBNYAABhAgsAIExgAQCECSwAgDCBBQAQJrAAAMIEFgBAmMACAAgTWAAAYQILACBMYAEAhAksAIAwgQUAECawAADCBBYAQJjAAgAIE1gAAGECCwAgTGABAIQJLACAMIEFABAmsAAAwgQWAECYwAIACBNYAABhAgsAIExgAQCECSwAgDCBBQAQJrAAAMIEFgBAmMACAAgTWAAAYQILACBMYAEAhAksAIAwgQUAECawAADCBBYAQJjAAgAIE1gAAGECCwAgTGABAIQJLACAMIEFABAmsAAAwgQWAECYwAIACBNYAABhAgsAIExgAQCECSwAgDCBBQAQJrAAAMIEFgBAmMACAAgTWAAAYQILACBMYAEAhAksAIAwgQUAECawAADCBBYAQNj3a08AuH33r+/zz38+fiw/PP133mD+FuBLE1jABnMVbUqiVUVVN6h+Wy2zSygH+rShgZsksID9WutPZ/Nr3mC5jjXVlrVWQyyPvKq9cvTODMsTWRVeeViAcd7BAjZbtkiZQdUwWpmr5c/Hj2XBlHvdv77fv75Xk6v8Yfq3pTqh1p8VwEECC9isDJH+I7bdo1QXpQYj6VRmg3st4+z4zAE8IgQClslVvqfVNy9BVT+vPrwbmUy5oHV2Ju" alt="HealthSense AI Banner" width="800" height="200" />
-</div>
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3498db;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#grad1)"/>
+  <text x="400" y="90" font-family="Poppins, Arial, sans-serif" font-size="48" fill="#ffffff" text-anchor="middle" font-weight="bold">HealthSense AI</text>
+  <text x="400" y="140" font-family="Poppins, Arial, sans-serif" font-size="24" fill="#ecf0f1" text-anchor="middle">Early Detection of Heart, Parkinson’s, and Diabetes</text>
+</svg>
 
 
 
@@ -155,8 +163,7 @@ Deployed on Streamlit Cloud with automatic CI/CD from GitHub:
 5. Open a Pull Request  
 
 ## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the [MIT License](LICENSE). See `LICENSE` for more information.
 
 ## Contact
 

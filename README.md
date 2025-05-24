@@ -1,6 +1,14 @@
 # HealthSense AI: Multiple Disease Prediction System
 
-![HealthSense AI Banner](https://healthsense-ai.streamlit.app/~/+/media/6a8f3e9c5a5a7e7e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://healthsense-ai.streamlit.app)  
+[![GitHub Stars](https://img.shields.io/github/stars/rsakm/HealthSense-AI-Multiple-Diseases-Prediction-ML?style=social)](https://github.com/rsakm/HealthSense-AI-Multiple-Diseases-Prediction-ML)  
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<div align="center">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAADICAIAAACf7RJNAAAGTElEQVR4nO3azU3cQACGYRPlQDHUgKgAceZCFamCKnKhgFSQsnLMYSXL8fzs2P6WDavnUQ5k1/aMDZJfjX338PgyAQCQ8+3aEwAAuDUCCwAgTGABAIQJLACAMIEFABAmsAAAwgQWAECYwAIACBNYAABhAgsAIExgAQCECSwAgDCBBQAQJrAAAMIEFgBAmMACAAgTWAAAYQILACBMYAEAhAksAIAwgQUAECawAADCBBYAQJjAAgAIE1gAAGECCwAgTGABAIQJLACAMIEFABAmsAAAwgQWAECYwAIACBNYAABhAgsAIExgAQCECSwAgDCBBQAQJrAAAMIEFgBAmMACAAgTWAAAYQILACBMYAEAhAksAIAwgQUAECawAADCBBYAQJjAAgAIE1gAAGECCwAgTGABAIQJLACAMIEFABAmsAAAwgQWAECYwAIACBNYAABhAgsAIExgAQCECSwAgDCBBQAQJrAAAMIEFgBAmMACAAgTWAAAYQILACBMYAEAhAksAIAwgQUAECawAADCBBYAQJjAAgAIE1gAAGECCwAgTGABAIQJLACAMIEFABAmsAAAwgQWAECYwAIACBNYAABhAgsAIExgAQCECSwAgDCBBQAQJrAAAMIEFgBAmMACAAgTWAAAYQILACBMYAEAhAksAIAwgQUAECawAADCBBYAQNj3a08AuH33r+/zz38+fiw/PP133mD+FuBLE1jABnMVbUqiVUVVN6h+Wy2zSygH+rShgZsksID9WutPZ/Nr3mC5jjXVlrVWQyyPvKq9cvTODMsTWRVeeViAcd7BAjZbtkiZQdUwWpmr5c/Hj2XBlHvdv77fv75Xk6v8Yfq3pTqh1p8VwEECC9isDJH+I7bdo1QXpQYj6VRmg3st4+z4zAE8IgQClslVvqfVNy9BVT+vPrwbmUy5oHV2Ju" alt="HealthSense AI Banner" width="800" height="200" />
+</div>
+
+
 
 ## Table of Contents
 - [Overview](#overview)
@@ -82,9 +90,9 @@ streamlit run app.py
 
 ```
 ├── Notebooks/
-│   ├── Diabetes_Prediction.ipynb
-│   ├── Heart_Disease_Prediction.ipynb
-│   └── Parkinsons_Prediction.ipynb
+│   ├── Diabetes.ipynb
+│   ├── heart.ipynb
+│   └── parkinsons.ipynb
 ├── saved_models/
 │   ├── diabetes_model.sav
 │   ├── heart_model.sav
@@ -147,8 +155,7 @@ Deployed on Streamlit Cloud with automatic CI/CD from GitHub:
 5. Open a Pull Request  
 
 ## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the [MIT License](LICENSE). See `LICENSE` for more information.
 
 ## Contact
 

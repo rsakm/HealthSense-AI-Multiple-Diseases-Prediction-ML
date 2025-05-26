@@ -29,7 +29,7 @@ HealthSense AI is a machine learning web application that predicts risks for:
 - Cardiovascular Disease (88% accuracy) 
 - Parkinson's Disease (90% accuracy)
 
-**Live Demo**: [healthsense-ai.streamlit.app](https://healthsense-ai.streamlit.app)
+**Live Demo**: [healthsense-ai.streamlit.app](https://healthsenseai.streamlit.app)
 
 ## Features
 
@@ -135,7 +135,7 @@ streamlit run app.py
 
 Deployed on Streamlit Cloud with automatic CI/CD from GitHub:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://healthsense-ai.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://healthsenseai.streamlit.app)
 
 ## Future Roadmap
 
